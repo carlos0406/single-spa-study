@@ -4,9 +4,9 @@ export default function Root(props) {
   return (
     <div>
       <BrowserRouter basename='/'>
-        <Link to="/company"> company</Link>
-        <Link to="/company2"> company2</Link>
-        <Link to="/"> Home</Link>
+        <Link to="/">App 1</Link>
+        <Link to="/company/company1"> App 2 page 1</Link>
+        <Link to="/company/company2"> App 2 page 2</Link>
       </BrowserRouter>
     </div >
   )

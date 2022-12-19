@@ -23,15 +23,15 @@
 
   </div>
   <main>
-    <route default>
-      <div>
+    <div>
+    <route path="/" exact>
         <application name="@truckpad/home"></application>
-      </div>
     </route>
-    <route path="company">
-      <div>
+  </div>
+  <div>
+    <route path="/company">
         <application name="@truckpad/company"></application>
-      </div>
     </route>
+  </div>
   </main>
 </single-spa-router>
